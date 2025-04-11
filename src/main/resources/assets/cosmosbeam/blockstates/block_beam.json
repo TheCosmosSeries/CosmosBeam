@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "cosmosbeam:block/block_beam"
+		}
+	}
+}

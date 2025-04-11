@@ -1,0 +1,30 @@
+{
+	"itemGroup.cosmosbeam": "Cosmos Beam",
+	
+	"block.cosmosbeam.block_beam": "Beam",
+	
+	"cosmosbeam.gui.config.name": "Cosmos Beam Configuration",
+	
+	"cosmosbeam.gui.config.general_title": "General",
+	"cosmosbeam.gui.config.messages_title": "Console Messages",
+	
+	"cosmosbeam.gui.config.message.info": "Info Messages",
+	"cosmosbeam.gui.config.message.info_desc": "Whether this mod will print [INFO] messages to the console/log",
+	
+	"cosmosbeam.gui.config.message.debug": "Debug Messages",
+	"cosmosbeam.gui.config.message.debug_desc": "Whether this mod will print [DEBUG] messages to the console/log",
+	
+	"cosmosbeam.gui.config.distance": "Beam Render Distance",
+	"cosmosbeam.gui.config.distance_slide": "Render Distance:",
+	"cosmosbeam.gui.config.distance_info": "Allows you to change the maximum render distance of beams",
+	"cosmosbeam.gui.config.distance_info_two": "WARNING: Larger distances *MAY* create lag",
+	"cosmosbeam.gui.config.distance_info_three": "Limited to the range of between 32 and 128", 
+	
+	"cosmosbeam.gui.beam": "Beam",
+	
+	"cosmosbeam.gui.type.info": "Beam Type",
+	"cosmosbeam.gui.type.value": "Current Beam Type: ",
+	
+	"cosmosbeam.beamtype.beacon" : "Beacon",
+	"cosmosbeam.beamtype.gateway" : "Gateway"
+}
