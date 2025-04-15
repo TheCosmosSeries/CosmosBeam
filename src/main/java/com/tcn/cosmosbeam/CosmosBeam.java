@@ -35,9 +35,6 @@ public class CosmosBeam {
 	}
 	
 	public void onFMLClientSetup(final FMLClientSetupEvent event) {
-//		final ModLoadingContext context = ModLoadingContext.get();
-
-//		BeamRegistrationManager.registerClient(context);
 		BeamRegistrationManager.onFMLClientSetup(event);
 		
 		CONSOLE.startup("CosmosBeam Client Setup complete.");

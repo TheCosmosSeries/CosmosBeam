@@ -80,6 +80,8 @@ public class BeamRegistrationManager {
 	@SubscribeEvent
 	public static void registerMenuScreensEvent(RegisterMenuScreensEvent event) {
 		event.register(MENU_TYPE_BEAM.get(), ScreenBeam::new);
+		
+		CosmosBeam.CONSOLE.startup("Menu Screen registration complete...");
 	}
 
 	@SuppressWarnings("deprecation")

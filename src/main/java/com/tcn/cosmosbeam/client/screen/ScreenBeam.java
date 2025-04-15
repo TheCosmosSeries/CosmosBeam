@@ -65,16 +65,12 @@ public class ScreenBeam extends CosmosScreenBlockEntityUI<ContainerBeam> {
 	public void renderStandardHoverEffect(GuiGraphics graphics, Style style, int mouseX, int mouseY) {
 		if (this.getBlockEntity() instanceof BlockEntityBeam blockEntity) {
 			if (this.colourButton.isMouseOver(mouseX, mouseY)) {
-				MutableComponent[] comp = new MutableComponent[] { ComponentHelper.style(ComponentColour.WHITE, "cosmoslibrary.gui.colour.info"), 
-					(MutableComponent) ComponentHelper.style(ComponentColour.GRAY, "cosmoslibrary.gui.colour.value").append(blockEntity.getBeamColour().getColouredName())
-				};
+				MutableComponent[] comp = new MutableComponent[] { ComponentHelper.style(ComponentColour.WHITE, "cosmoslibrary.gui.colour.info"), ComponentHelper.style(ComponentColour.GRAY, "cosmoslibrary.gui.colour.value").append(blockEntity.getBeamColour().getColouredName())};
 				
 				graphics.renderComponentTooltip(this.font, Arrays.asList(comp), mouseX, mouseY);
 			}
 			else if (this.typeButton.isMouseOver(mouseX, mouseY)) {
-				MutableComponent[] comp = new MutableComponent[] { ComponentHelper.style(ComponentColour.WHITE, "cosmosbeam.gui.type.info"), 
-					(MutableComponent) ComponentHelper.style(ComponentColour.GRAY, "cosmosbeam.gui.type.value").append(blockEntity.getBeamType().getColouredName())
-				};
+				MutableComponent[] comp = new MutableComponent[] { ComponentHelper.style(ComponentColour.WHITE, "cosmosbeam.gui.type.info"), ComponentHelper.style(ComponentColour.GRAY, "cosmosbeam.gui.type.value").append(blockEntity.getBeamType().getColouredName())};
 				
 				graphics.renderComponentTooltip(this.font, Arrays.asList(comp), mouseX, mouseY);
 			}
@@ -109,5 +105,4 @@ public class ScreenBeam extends CosmosScreenBlockEntityUI<ContainerBeam> {
 			}
 		} 
 	}
-	
 }
