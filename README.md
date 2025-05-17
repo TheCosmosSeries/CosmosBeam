@@ -36,8 +36,8 @@ This repo does not have a licence. This means that by default, it is All Rights 
  - Redistribute the Mod under a different name or Author.
 
 ## Mod Pages
-- Cosmos Beam on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cosmos-beam) [coming soon]
-- Cosmos Beam on [Modrinth](https://modrinth.com/mod/cosmos-beam) [coming soon]
+- Cosmos Beam on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cosmos-beam)
+- Cosmos Beam on [Modrinth](https://modrinth.com/mod/cosmos-beam)
 
 ## The Cosmos Series
 This mod is part of [The Cosmos Series](https://www.github.com/TheCosmosSeries).
